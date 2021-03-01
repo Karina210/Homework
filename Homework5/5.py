@@ -64,3 +64,83 @@
 #     if i % 3 == 0:
 #       print(i)
 
+
+# a = []
+# i = 0
+# n = 5
+# while i < n:
+#     a = a + [i]
+#     i += 1
+# print(a)
+
+
+
+# a = [1, 2, 4, 6, 9]
+# i = 0
+# for n in a:
+#     if (n % 2) == 0:
+#         i += 1
+# print(i)
+
+# a = [1, 2, 3, 4, 5, 6]
+# c = i = 0
+# n = len(a)
+# while n > i:
+#     c += (a[i] + 1) % 2
+#     i += 1
+# print(c)
+
+# a = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
+# for i in list(a.keys()):
+#     a[i + str(len(i))] = a.pop(i)
+# print(a)
+#
+# a = [8, 7, 6, 5, 4]
+# i = 0
+#
+# while len(a) - 1 > i:
+#     a[i] = a[i + 1]
+#     i += 1
+# a[i] = a[0]
+# print(a)
+
+# !
+# a = [6, 5, 4, 3, 2]
+# for i in len(a):
+#     a[-1] = a.pop(0)
+#     print(a)
+
+
+while True:
+    x = int(input("1: "))
+    y = int(input("2: "))
+    a = input("(+, -, /, *): ")
+    if a == "o":
+        break
+    if a == "+":
+        print(x + y)
+    elif a == "-":
+        print(x-y)
+    elif a == "/":
+        if y != 0:
+            print(x / y)
+        else:
+            print("ошибка")
+
+    elif a == "*":
+        print(x * y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,10 @@
-# a = [ 1, 2, 3, 4, 5]
+# a = [8, 7, 6, 5, 4]
 # i = 0
-# while i < len(a) - 1:
-#     a[i] = a[i + 1]
+#
+# while len(a) > i:
 #     i += 1
-# a[i] = 1
+# a[-1] = a.pop(0)
 # print(a)
+
 
 

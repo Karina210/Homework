@@ -6,8 +6,9 @@
 #     print(b)
 
 a = [1, 3, 5]
-
+b = []
 i = 0
 while i < len(a):
-    a = i * (-2)
-    print(a)
+    b = a[i] * (-2)
+    i += 1
+    print(b)
