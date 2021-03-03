@@ -20,13 +20,13 @@ while True:
 
     if b == "2":
 
-       def cen(c):
-         inc = c * 0.39
-         print(f'{c} * 0.39 = {inc}')
-         return inc
+       def cent(c):
+         inch = c * 0.39
+         print(f'{c} * 0.39 = {inch}')
+         return inch
 
 
-       print(cen(c))
+       print(cent(c))
 
     if b == "3":
         def mile(c):
