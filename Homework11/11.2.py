@@ -29,12 +29,11 @@ class Car:
     def display(self, n):
         print(n)
 
-    # @display.setter()
-    # def u_turn(self):
-    #     if n > 0:
-    #         print(-n)
-    #     elif n < 0:
-    #         print(n)
+    def u_turn(self,n):
+        if n > 0:
+            print(-n)
+        elif n < 0:
+            print(-n)
 
 c = Car("BMW", "s-class", "2014", 0)
 c.bark()
@@ -42,3 +41,4 @@ c.increase(95)
 c.decrease(95)
 c.stop(25)
 c.display(99)
+c.u_turn(-65)
